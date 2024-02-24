@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+#abaixodafoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 3em; 
+}
+
+#botões {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.button {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button-skip {
+    font-size: 3em;
+}
+
+.button-biggest {
+    font-size: 4em;
+}
+
+.button-smallest {
+    font-size: 1.5em
+}
+
+.buttonlike {
+    font-size: 1.5em
+}
+
+
+#capa {
+    width: 450px;
+}
+
+#tituloplaylist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0em 4em 0em;
+}
+
+#nomemusica {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.corleve {
+    color: rgb(139, 153, 156);
+}
+
+#barra {
+    background-color: rgb(139, 153, 156);
+    margin-top: 1em;
+    height: 3px;
+    width: 100%;
+    border-radius: 15px; 
+}
+
+#progressoatual {
+    --progresso: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progresso);
+    border-radius: inherit;
+}
+
+#progress-container {
+    cursor: pointer;
+}
+
+.button-active {
+    color: rgb(0, 183, 107);
+}
+
+#time-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
