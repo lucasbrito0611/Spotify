@@ -45,6 +45,7 @@ function playmusic(){
     play.querySelector('.bi').classList.remove('bi-play-circle-fill');
     play.querySelector('.bi').classList.add('bi-pause-circle-fill');
     music.play();
+    music.volume = 0.3
     playing = true;
 }
 

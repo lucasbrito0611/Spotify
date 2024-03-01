@@ -5,6 +5,7 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -27,8 +28,6 @@ button {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
 
 .button {
